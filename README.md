@@ -1,27 +1,54 @@
-# *readme_practice*
-# FinTech Repository---
+readme_practice for Loan Analyzer program
 
-## FinTech Repository
+# Loan Analyzer Program
 
-### FinTech Repository
+This program is to allow the user to determine if they qualify for a loan given alist of banks with certain loan criteria, including montly income, credit score, loan to value and debt to income ratios.
 
-**Welcome to my repository of FinTech projects. Please explore the codebase!**
+---
 
-![Three circular icons that represent a phone, the python logo, and money.](images/fintech.png)
+## Technologies
 
-A `print` function in Python displays the text or variable passed in the function as output:
+This program is written in Python 3.7 and uses both Fire and Questionary packages.
+
+[Fire](fire) for command line interface, help page and entry point
+
+[Questionary](questionary) to allow interactive user prompts and dialogues 
+---
+
+## Installation Guide
+
+Before running the program, install the following dependencies
 
 ```python
-text = ‘This is a sentence that you would like to display.’
-print(text)
+`pip install fire`
+
+`pip install questionary`
+```
+---
+
+## Usage
+
+The application allows the user to enter in their financial information including credit score, monthly income, debt to imcome ratio and desired loan. 
+
+to use the loan qualifyer program, simply clone the applicaiton and use **app.py** with:
+
+```python
+python app.py
 ```
 
-> "...to boldly go where no one has gone before."
+once launched, you will be greeted with the following prompts:
 
-## Directory
+![Loan Qualifier Prompts](Images/loan_qalifier.png)
+---
 
-[Programs](code)
+## Contributors
 
-[Data files](data)
+Emily Bertani
 
-[References](references)
+FinTech Bootcamp fabulous cast and crew
+
+---
+
+## License
+
+MIT
